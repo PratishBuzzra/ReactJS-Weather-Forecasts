@@ -32,6 +32,12 @@ A sleek and functional Weather Application built to help me **recall and reinfor
 
 ---
 
+##  Live Demo
+Check out the live version of the project here:  
+[Live Preview](https://react-js-weather-forecasts.vercel.app/)
+
+---
+
 ## 💻 Getting Started
 
 To run this project locally, follow these steps:
