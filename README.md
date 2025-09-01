@@ -1,12 +1,54 @@
-# React + Vite
+# React Weather App – Mini Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek and functional Weather Application built to help me **recall and reinforce React concepts** using React, Context API, and TailwindCSS, help reinforce essential React concepts like state management, data fetching, component composition, and external API integration.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- Search current weather by city name
+- Display current weather details:
+    -Temperature
+    -Feels like
+    -Humidity
+    -Pressure
+    -Wind speed
+    -Weather icon and description
+- Get a 5-day weather forecast
+- Fetches real-time data from OpenWeatherMap API
+- Loading indicator for async calls
+- Built with Context API for global state management
+- Styled entirely with TailwindCSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Tech Stack
+
+- React (with Hooks)
+- Context API – global state management
+- TailwindCSS – utility-first CSS framework
+- React Icons – for dynamic weather icons
+- OpenWeatherMap API – weather and forecast data
+
+---
+
+## 💻 Getting Started
+
+To run this project locally, follow these steps:
+
+```bash
+# Clone the repository
+git clone https://github.com/PratishBuzzra/ReactJS-Weather-Forecasts.git
+
+# Navigate to the project folder
+cd ReactJS-Weather-Forecasts
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
+
+```
+
+---
